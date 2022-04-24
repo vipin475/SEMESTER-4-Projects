@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filling Details </title>
+    <link rel="stylesheet" href="fillstyle.css">
+
+</head>
+
+<body>
+    <section>
+
+        <div class="contentBx">
+            <div class="formBx">
+                <h2>New Student details</h2>
+
+                <form action="filldetail.php" method="POST">
+                    <div class="inputBx">
+                        <span>Full Name</span>
+                        <input type="text" placeholder="First Name" name="firstname" required>
+                        <input type="text" placeholder="Middle Name" name="middlename" required>
+                        <input type="text" placeholder="Last Name" name="lastname" required>
+
+                    </div>
+
+                    
+
+                    <div class="inputBx">
+                        <span>GR Number</span>
+                        <input type="number" name="grno" required>
+                    </div>
+
+                    <div class="inputBx">
+                        <span>Roll Number</span>
+                        <input type="number" name="rollno" required>
+                    </div>
+
+                    <div class="inputBx">
+                        <span>Division</span>
+                        <input type="text" name="division" required>
+                    </div>
+
+                    <div class="inputBx">
+                        <span>Department</span>
+                        <input type="text" name="dept" required>
+                    </div>
+
+                    <div class="inputBx">
+                        <span>Mobile Number</span>
+                        <input type="number" name="mobile" required>
+                    </div>
+
+                    <div class="inputBx">
+                        <span>Date of Birth</span>
+                        <input type="date" name="dob" required>
+                    </div>
+
+                    <div class="inputBx">
+                        <span>Local Address</span>
+                        <input type="text" name="address" required>
+                    </div>
+
+                    <div class="inputBx">
+                        <input type="submit" value="Create Profile" name="">
+                    </div>
+
+
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
