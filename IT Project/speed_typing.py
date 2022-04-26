@@ -163,6 +163,7 @@ class Game:
         # text wrap
         
         # draw the sentence string
+        self.rect = pygame.draw.rect(self.screen, (255,255,255), (120, 170, 650, 60), 2)
         self.draw_text(self.screen, self.word,200, 28,self.TEXT_C)
         
         pygame.display.update()
